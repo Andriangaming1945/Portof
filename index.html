@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profil Pribadi</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+  <!--- AOS css link ---->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+
+  <!---custom css file---->
+  <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <header data-aos="fade-up">
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="PTS PWPB - Ganjil.pdf" download>Download CV</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="home">
+        <section>
+            <h1 align="center" data-aos="fade-left">Selamat Datang di Profil Saya</h1>
+            <img src="WIN_20230830_11_49_30_Pro.jpg" alt="Foto Profil" data-aos="fade-right">
+            <h2 align="center" data-aos="fade-left"> Siswa SMK Telkom Jakarta</h2>
+            <br>
+            <hr>
+            
+            <h2 align="center" data-aos="fade-right">Perkenalan</h2>
+            <br>
+            <p data-aos="fade-left" >Halo guys, nama saya Andrian Dwi Putra dari XI Tel 9 saya sedang mencari kesempatan baru untuk menambah pengalaman baru untuk menambah pengalaman dan kemampuan.<br>Saya menguasai HTML, CSS, PHP, Javascript, dan masih banyak lagi. Senang berkenalan</p>
+        </section>
+
+        <br>
+        <br>
+
+        <section>
+            <table data-aos="fade-up">
+            <h2 align="center" data-aos="fade-right">Skills dan Pengalaman</h2>
+            
+                <tr>
+                    <th><b>Skills</b></th>
+                    <th><b>Pengalaman</b></th>
+                </tr>
+                <tr>
+                    <td>HTML</td>
+                    <td>Ketua English Club</td>
+                </tr>
+                <tr>
+                    <td>PHP</td>
+                    <td>Pernah membuat projek e-commrence</td>
+                </tr>
+
+                <tr>
+                    <td>CSS</td>
+                    <td>Membuat projek modal bootstrap dan css biasa</td>
+                </tr>
+
+                <tr>
+                    <td>Javascript</td>
+                    <td>Mengakui bahwa tiada tuhan selain Allah</td>
+                </tr>
+                
+            </table>
+        </section>
+
+        <br>
+    </main>
+
+    
+
+    <main id="about" data-aos="fade-up">
+        <section>
+            <h1 data-aos="fade-right">Tentang Saya</h1>
+            <p>Halo hai, nama saya adalah Andrian Dwi Putra Wibowo dan saya disini untuk memperkenalkan diri saya mengenai diri saya<br>Yang bersekolah di SMK Telkom Jakarta dan saya memiliki beberapa prestasi di sekolah ini seperti contohnya lomba LKS bulan agustus</br>nah saat itu saya berjuara 1 harapan dan mewakili kota jakbar, disini saya memiliki skill coding dan bahasa pemrograman yang saya pakai adalah HTML, CSS, PHP beserta framework nya<br><br>
+            </p>
+            
+            <center>
+                <video controls>
+                    <source src="WIN_20230207_14_00_08_Pro.mp4" type="video/mp4" data-aos="fade-left">
+                    
+                </video>
+            </center>
+        </section>
+    </main>
+
+    
+
+    <main id="contact" data-aos="fade-up">
+        <section>
+            <h1>Hubungi Saya</h1>
+            <form>
+                <label for="nama" data-aos="fade-right">Nama:</label>
+                <input type="text" id="nama" name="nama" required data-aos="fade-right"><br><br>
+
+                <label for="email" data-aos="fade-left">Email:</label>
+                <input type="email" id="email" name="email" required data-aos="fade-left"><br><br>
+
+                <label for="telepon" data-aos="fade-right">Nomor Telepon:</label>
+                <input type="tel" id="telepon" name="telepon" data-aos="fade-right"><br><br>
+
+                <label for="tanggal" data-aos="fade-left">Tanggal:</label>
+                <input type="date" id="tanggal" name="tanggal" data-aos="fade-left"><br><br>
+
+                <label for="pesan" data-aos="fade-right">Pesan:</label><br>
+                <textarea id="pesan" name="pesan" rows="4" cols="50" required data-aos="fade-right"></textarea><br><br>
+
+                <input type="submit" value="Kirim">
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Andrian Dwi Putra. SMK TELKOM JAKARTA.</p>
+    </footer>
+
+
+     <!---- custom js file ----->
+  
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+
+  <script>
+
+    AOS.init({
+      duration: 800,
+      delay: 300
+    });
+
+  </script>
+</body>
+</html>
